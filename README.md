@@ -6,7 +6,7 @@
 | ------------------- | ---------------------------- |
 | Wifi + Bluetooth    | DW1820a BCM4350              |
 
-## ## Config & Kexts :
+## Config & Kexts :
 
 <details>  
 
@@ -205,6 +205,19 @@
 
 
 </details> 
+
+<details>  
+
+<summary> OpenCore-Patcher：</summary>
+
+![Screenshot 2024-03-18 at 18 52 13](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/f9b2721a-4b30-4257-9642-b894e2e07675)
+
+![fixing-broadcom-wifi-in-macos-sonoma-v0-2vihrrop8ofb1 copy](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/b523156b-9108-498e-8cc0-c98f1e7c3ebd)
+
+
+
+</details> 
+
 
 
 
