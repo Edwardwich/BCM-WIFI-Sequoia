@@ -214,7 +214,13 @@
 
 ![fixing-broadcom-wifi-in-macos-sonoma-v0-2vihrrop8ofb1 copy](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/b523156b-9108-498e-8cc0-c98f1e7c3ebd)
 
+![Screenshot 2024-03-18 at 18 55 12](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/cf5ea299-161a-4a9c-8bd6-d65136f510c1)
 
+![Screenshot 2024-03-18 at 18 55 37](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/df7c2226-2d71-417c-8edb-771ba612d004)
+
+![Screenshot 2024-03-18 at 18 56 01](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/7a7872f5-f7fc-439d-b522-d7f404cc0ba1)
+
+![Screenshot 2024-03-18 at 18 56 21](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/d36f4a25-c5e9-4321-8660-85e578a683a9)
 
 </details> 
 
