@@ -1,5 +1,5 @@
 
-# BCM-WIFI_Sonoma
+# BCM-WIFI-Sonoma
 
 ## Configuration(card i test)
 | Specifications      | Detail                       |
