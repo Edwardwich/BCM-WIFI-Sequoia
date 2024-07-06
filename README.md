@@ -9,7 +9,9 @@
 ## OCLP & Config & Kexts :
 
   you need download this OCLP : https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/9783955206
+  
   Kext source : https://github.com/dortania/OpenCore-Legacy-Patcher/tree/sequoia-development/payloads/Kexts/Acidanthera
+  
   download kext from this Repositories
 - `IOSkywalkFamily.kext`
 - `IO80211FamilyLegacy.kext` 
