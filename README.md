@@ -1,5 +1,5 @@
 
-# BCM-WIFI-Sonoma
+# BCM-WIFI-Sequoia
 
 ## Configuration(card i test)
 | Specifications      | Detail                       |
@@ -8,9 +8,7 @@
 
 ## Config & Kexts :
 
-<details>  
-
-<summary> Kexts：</summary>
+  
 
 - `IOSkywalkFamily.kext` [download:https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.1.0.zip]
 - `IO80211FamilyLegacy.kext` [download:https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip]
@@ -20,9 +18,8 @@
 - 'BrcmFirmwareData.kext' [download:https://github.com/acidanthera/BrcmPatchRAM/releases]
 - 'BrcmPatchRAM3.kext' [download:https://github.com/acidanthera/BrcmPatchRAM/releases]
 - 'AMFIPass.kext' [download:https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip
-</details> 
-<details>
-<summary> Config：</summary>
+ 
+
 
 ![Screenshot 2024-03-18 at 18 42 31](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/e2cefd5b-4edf-411a-96fc-b675da63f097)
 
