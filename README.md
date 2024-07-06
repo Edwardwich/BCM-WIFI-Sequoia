@@ -10,14 +10,15 @@
 
   you need download this OCLP : https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/9783955206
 
+  download kext from this Repositories
 - `IOSkywalkFamily.kext`
 - `IO80211FamilyLegacy.kext` 
 - `AirPortBrcmNIC.kext`
 - `AirportBrcmFixup.kext`
-- 'BlueToolFixup.kext' 
-- 'BrcmFirmwareData.kext' 
-- 'BrcmPatchRAM3.kext' 
-- 'AMFIPass.kext'
+- `BlueToolFixup.kext` 
+- `BrcmFirmwareData.kext` 
+- `BrcmPatchRAM3.kext` 
+- `AMFIPass.kext`
 
  
 
@@ -202,25 +203,18 @@
 ```
 
 
-</details> 
 
-<details>  
-
-<summary> OpenCore-Patcher：</summary>
-
-![Screenshot 2024-03-18 at 18 52 13](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/f9b2721a-4b30-4257-9642-b894e2e07675)
-
-![fixing-broadcom-wifi-in-macos-sonoma-v0-2vihrrop8ofb1 copy](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/b523156b-9108-498e-8cc0-c98f1e7c3ebd)
+![Screenshot 2024-07-06 at 11 24 30](https://github.com/Edwardwich/BCM-WIFI-Sequoia/assets/35195176/38997721-0c70-4f3b-9851-08e4a4d41a87)
 
 ![Screenshot 2024-03-18 at 18 55 12](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/cf5ea299-161a-4a9c-8bd6-d65136f510c1)
 
 ![Screenshot 2024-03-18 at 18 55 37](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/df7c2226-2d71-417c-8edb-771ba612d004)
 
-![Screenshot 2024-03-18 at 18 56 01](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/7a7872f5-f7fc-439d-b522-d7f404cc0ba1)
+![Screenshot 2024-07-06 at 11 23 55](https://github.com/Edwardwich/BCM-WIFI-Sequoia/assets/35195176/739d77ae-e092-40e9-9370-c586a86b6993)
 
 ![Screenshot 2024-03-18 at 18 56 21](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/d36f4a25-c5e9-4321-8660-85e578a683a9)
 
-</details> 
+
 
 
 
