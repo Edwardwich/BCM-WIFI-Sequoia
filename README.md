@@ -8,7 +8,7 @@
 
 ## OCLP & Config & Kexts :
 
-  you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/10066455654)
+  you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/10081321423)
   
   Kext source : https://github.com/dortania/OpenCore-Legacy-Patcher/tree/sequoia-development/payloads/Kexts/Acidanthera
   
