@@ -1,0 +1,34 @@
+name: Run Firmware Update
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0' # Specify the version of Ruby if needed
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y plistutil
+
+    - name: Run firmware update script
+      run: |
+        chmod +x path/firmware_update.tool
+        ./path/to/firmware_update.tool /path/to/firmware/directory
+      env:
+        SRC_DIR: ${{ github.workspace }}
