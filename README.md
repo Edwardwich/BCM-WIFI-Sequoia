@@ -30,6 +30,28 @@
 ![Screenshot 2024-03-18 at 18 42 48](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/b8e7dc55-26fa-4305-8f0b-664566578be6)
 
 ![Screenshot 2024-03-18 at 18 43 06](https://github.com/Edwardwich/BCM-WIFI_Sonoma/assets/35195176/7957db8d-7135-43c5-8900-6413ff9dd668)
+Add this two Key for fixing BT:
+![Screenshot 2024-08-24 at 19 49 02](https://github.com/user-attachments/assets/8c4b92dc-b7e2-4833-a2a4-7741b4ca9027)
+```
+<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+                <dict>
+                    <key>SystemAudioVolume</key>
+                    <data>Rg==</data>
+                    <key>bluetoothExternalDongleFailed</key>
+                    <data>AA==</data>
+                    <key>bluetoothInternalControllerInfo</key>
+                    <data>AAAAAAAAAAAAAAAAAAA=</data>
+                    <key>boot-args</key>
+                    <string></string>
+                    <key>csr-active-config</key>
+                    <data>AwgAAA==</data>
+                    <key>prev-lang:kbd</key>
+                    <string>en-US:0</string>
+                    <key>run-efi-updater</key>
+                    <string>No</string>
+                </dict>
+```
+
 
 ```
     <dict>
