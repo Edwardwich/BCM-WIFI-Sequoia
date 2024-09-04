@@ -3,7 +3,7 @@
 # Script to download, extract, build, and run Sequoia Development Bench
 
 # Variables
-SOURCE_DIR="$HOME/desktop"
+SOURCE_DIR="$HOME/desktop/"
 REPO_URL="https://github.com/dortania/OpenCore-Legacy-Patcher/archive/refs/heads/sequoia-development.zip"
 ZIP_FILE="sequoia-dev-bench.zip"
 EXTRACTED_DIR="sequoia-dev-bench-main"
