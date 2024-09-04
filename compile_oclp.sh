@@ -26,7 +26,7 @@ sudo bash install.sh
 cd ..
 cd ..
  pip3 install -r requirements.txt
- ./Build-Project.command
+ sudo ./Build-Project.command
  python3 ./OpenCore-Patcher-GUI.command
 # Example build commands (replace with actual build commands)
 # If using CMake
