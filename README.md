@@ -7,7 +7,7 @@
 | Wifi + Bluetooth    | DW1820a BCM4350              |
 
 ## OCLP & Config & Kexts :
-  One Key OCLP  
+  One Key OCLP  :
   ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/compile_oclp.sh)"
   ```
