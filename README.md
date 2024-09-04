@@ -7,6 +7,10 @@
 | Wifi + Bluetooth    | DW1820a BCM4350              |
 
 ## OCLP & Config & Kexts :
+  One Key OCLP  
+  ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/compile_oclp.sh)"
+  ```
 
   you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/10081321423)
   
