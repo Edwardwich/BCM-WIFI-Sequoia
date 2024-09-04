@@ -27,7 +27,7 @@ cd ..
 cd ..
  pip3 install -r requirements.txt
  ./Build-Project.command
- ./OpenCore-Patcher-GUI.command
+ python3 ./OpenCore-Patcher-GUI.command
 # Example build commands (replace with actual build commands)
 # If using CMake
 mkdir -p build
