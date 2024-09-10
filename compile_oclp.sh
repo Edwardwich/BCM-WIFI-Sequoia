@@ -4,7 +4,8 @@
 
 # Variables
 cd $HOME/desktop
-REPO_URL="https://github.com/dortania/OpenCore-Legacy-Patcher/archive/refs/heads/sequoia-development.zip"
+REPO_URL="https://github.com/dortania/OpenCore-Legacy-Patcher/archive/refs/heads/main.zip"
+
 ZIP_FILE="sequoia-dev-bench.zip"
 EXTRACTED_DIR="sequoia-dev-bench-main"
 
