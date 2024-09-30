@@ -3,11 +3,11 @@
 # Script to download, extract, build, and run Sequoia Development Bench
 
 # Variables
-cd $HOME/desktop
+cd $HOME/Desktop
 REPO_URL="https://github.com/dortania/OpenCore-Legacy-Patcher/archive/refs/heads/main.zip"
 
 ZIP_FILE="sequoia-dev-bench.zip"
-EXTRACTED_DIR="sequoia-dev-bench-main"
+EXTRACTED_DIR="OpenCore-Legacy-Patcher-main"
 
 # Download the ZIP file
 echo "Downloading Sequoia Development Bench..."
@@ -18,31 +18,42 @@ echo "Extracting the ZIP file..."
 unzip -q "$ZIP_FILE"
 
 # Change directory to the extracted folder
-cd OpenCore-Legacy-Patcher-sequoia-development
-# Build the project (adjust the build commands based on the actual build process)
+cd $EXTRACTED_DIR || { echo "Failed to change directory to $EXTRACTED_DIR. Please check if the directory exists."; exit 1; }
+
+# Verify the presence of the required directories and files before proceeding
+if [ ! -d "ci_tooling/privileged_helper_tool/" ]; then
+    echo "Error: 'ci_tooling/privileged_helper_tool/' does not exist."
+    exit 1
+fi
+
+# Build the project
 echo "Building Sequoia Development Bench..."
 cd ci_tooling/privileged_helper_tool/
 make debug
+if [ $? -ne 0 ]; then
+    echo "Error: Make failed."
+    exit 1
+fi
+
 sudo bash install.sh
-cd ..
-cd ..
- pip3 install -r requirements.txt
- sudo ./Build-Project.command
- python3 ./OpenCore-Patcher-GUI.command
-# Example build commands (replace with actual build commands)
-# If using CMake
-mkdir -p build
+cd ../..
 
-cd build
-cmake ..
-make
+# Create and activate a virtual environment for Python dependencies
+python3 -m venv venv || { echo "Error: Failed to create virtual environment."; exit 1; }
+source venv/bin/activate || { echo "Error: Failed to activate virtual environment."; exit 1; }
 
-# If using Makefile
-# cd ..
-# make
+# Install Python dependencies using pip
+pip install -r requirements.txt || { echo "Error: Failed to install requirements."; exit 1; }
+
+# Run the build command
+sudo ./Build-Project.command || { echo "Error: Build command failed."; exit 1; }
+
+# Run the OpenCore-Patcher GUI
+python3 ./OpenCore-Patcher-GUI.command || { echo "Error: OpenCore-Patcher GUI command failed."; exit 1; }
 
 # Inform the user that the build is complete
 echo "Build complete."
 
-# Exit the script
+# Clean up
+deactivate  # Make sure to deactivate virtual environment at end
 exit 0
