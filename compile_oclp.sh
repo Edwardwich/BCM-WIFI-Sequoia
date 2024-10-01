@@ -73,7 +73,7 @@ pip3 install -r requirements.txt || { echo "Error: Failed to install requirement
 
 # Run PyInstaller to generate the application
  echo "Generating OpenCore-Patcher.app..."
- sudo ./Build-Project.command || { echo "Error: Build command failed."; exit 1; }
+./Build-Project.command || { echo "Error: Build command failed."; exit 1; }
 
 # Run the OpenCore-Patcher GUI without sudo
 python3 ./OpenCore-Patcher-GUI.command || { echo "Error: OpenCore-Patcher GUI command failed."; exit 1; }
