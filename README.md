@@ -12,9 +12,9 @@
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/compile_oclp.sh)"
   ```
 
-  you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/actions/runs/10081321423)
+  you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
   
-  Kext source : https://github.com/dortania/OpenCore-Legacy-Patcher/tree/sequoia-development/payloads/Kexts/Acidanthera
+  Kext source : [payloads](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts)
   
   download kext from this Repositories
 - `IOSkywalkFamily.kext`
