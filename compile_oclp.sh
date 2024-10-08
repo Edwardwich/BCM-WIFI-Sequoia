@@ -68,6 +68,9 @@ cd ../..
 python3 -m venv venv || { echo "Error: Failed to create virtual environment."; exit 1; }
 source venv/bin/activate || { echo "Error: Failed to activate virtual environment."; exit 1; }
 
+# Install Python packaging using pip
+pip3 install packaging || { echo "Error: Failed to install requirements."; exit 1; }
+
 # Install Python dependencies using pip
 pip3 install -r requirements.txt || { echo "Error: Failed to install requirements."; exit 1; }
 
