@@ -79,10 +79,11 @@ pip3 install -r requirements.txt || { echo "Error: Failed to install requirement
  sudo ./Build-Project.command || { echo "Error: Build command failed."; exit 1; }
 
 # Create and activate a virtual environment for Python dependencies
-python3 -m venv venv 
-source venv/bin/activate
+python3 -m venv venv || { echo "Error: Failed to create virtual environment."; exit 1; }
+source venv/bin/activate || { echo "Error: Failed to activate virtual environment."; exit 1; }
+
 # Run the OpenCore-Patcher GUI without sudo
-python3 ./OpenCore-Patcher-GUI.command || { echo "Error: OpenCore-Patcher GUI command failed."; exit 1; }
+./OpenCore-Patcher-GUI.command 
 
 # Inform the user that the build is complete
 echo "Build complete."
