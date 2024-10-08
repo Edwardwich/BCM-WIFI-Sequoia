@@ -65,22 +65,21 @@ cd ../..
 # fi
 
 # Create and activate a virtual environment for Python dependencies
-python3 -m venv venv || { echo "Error: Failed to create virtual environment."; exit 1; }
-source venv/bin/activate || { echo "Error: Failed to activate virtual environment."; exit 1; }
-
-# Install Python packaging using pip
-pip3 install packaging || { echo "Error: Failed to install requirements."; exit 1; }
+python3 -m venv venv 
+source venv/bin/activate 
 
 # Install Python dependencies using pip
-pip3 install -r requirements.txt || { echo "Error: Failed to install requirements."; exit 1; }
+pip3 install -r requirements.txt 
+# Install Python packaging using pip
+pip3 install packaging
 
 # Run PyInstaller to generate the application
  echo "Generating OpenCore-Patcher.app..."
- sudo ./Build-Project.command || { echo "Error: Build command failed."; exit 1; }
+ sudo ./Build-Project.command 
 
 # Create and activate a virtual environment for Python dependencies
-python3 -m venv venv || { echo "Error: Failed to create virtual environment."; exit 1; }
-source venv/bin/activate || { echo "Error: Failed to activate virtual environment."; exit 1; }
+python3 -m venv venv 
+source venv/bin/activate 
 
 # Run the OpenCore-Patcher GUI without sudo
 ./OpenCore-Patcher-GUI.command 
