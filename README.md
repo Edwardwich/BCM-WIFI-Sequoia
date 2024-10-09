@@ -8,6 +8,7 @@
 
 ## OCLP & Config & Kexts :
   One Key OCLP  :
+    ITs need Homebrew and pip3
   ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/compile_oclp.sh)"
   ```
