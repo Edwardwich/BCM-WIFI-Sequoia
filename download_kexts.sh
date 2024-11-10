@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd $HOME/Downloads
 # Set the repository URL
 REPO_URL="https://github.com/dortania/OpenCore-Legacy-Patcher.git"
 
