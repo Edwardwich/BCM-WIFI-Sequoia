@@ -15,7 +15,10 @@
 
   you need download this OCLP : [OpenCore-Legacy-Patchera](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
   
-  Kext source : [payloads](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts)
+  Kext source : 
+   ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/download_kexts.sh)"
+  ```
   
   download kext from this Repositories
 - `IOSkywalkFamily.kext`
