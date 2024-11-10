@@ -30,8 +30,3 @@ rm -rf corecaptureElCap-v1.0.2.zip
 unzip IO80211ElCap-v2.0.1.zip
 rm -rf IO80211ElCap-v2.0.1.zip
 cd ..
-zip -r Wifi.zip ./Wifi/*
-rm -rf Wifi
-# Print current directory contents after cleanup
-echo "Current directory contents after cleanup:"
-ls -R
