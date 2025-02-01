@@ -4,8 +4,8 @@
 confirm() {
     read -r -p "$1 [y/N]: " response
     case "$response" in
-        [yY][eE][sS]|[yY]) true ;;
-        *) false ;;
+        [yY][eE][sS]|[yY]) return 0 ;;  # Properly returning for conditionals
+        *) return 1 ;;
     esac
 }
 
@@ -31,7 +31,7 @@ else
     echo "Skipped deleting user logs."
 fi
 
-# Clear System Diagnostic Reports & Crash Reports (combined to avoid redundancy)
+# Clear System Diagnostic Reports & Crash Reports
 if confirm "Do you want to delete all system diagnostic and crash reports?"; then
     sudo rm -rf /Library/Logs/DiagnosticReports/*
     rm -rf ~/Library/Logs/DiagnosticReports/*
