@@ -19,6 +19,10 @@
    ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/download_kexts.sh)"
   ```
+
+ ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/clear_mac_logs.sh)"
+  ```
   
   download kext from this Repositories
 - `IOSkywalkFamily.kext`
