@@ -19,7 +19,7 @@
    ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/download_kexts.sh)"
   ```
-
+  clear macOS logs :
  ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/BCM-WIFI-Sequoia/main/clear_mac_logs.sh)"
   ```
